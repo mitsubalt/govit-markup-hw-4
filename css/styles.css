@@ -245,8 +245,16 @@ img {
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 210px;
+  padding-bottom: 200px;
   background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(49, 47, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
@@ -302,7 +310,7 @@ img {
   margin-right: 30px;
 }
 
-.features-title {
+.features-item .features-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
