@@ -489,6 +489,36 @@ img {
   box-sizing: border-box;
 }
 
+.work-profession-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.work-profession-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.work-profession-social-icon {
+  fill: #afb1b8;
+}
+
+.work-profession-social-link:hover,
+.work-profession-social-link:focus {
+  background-color: #2196f3;
+}
+
+.work-profession-social-link:hover .work-profession-social-icon,
+.work-profession-social-link:focus .work-profession-social-icon {
+  fill: #ffffff;
+}
+
 .work-title {
   font-weight: bold;
   font-size: 36px;
@@ -518,6 +548,7 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
+  margin-bottom: 16px;
 }
 
 /*----------footer-------*/
