@@ -661,6 +661,7 @@ img {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-link-logo {
@@ -878,6 +879,7 @@ img {
 
 .footer-portfolio-container {
   display: flex;
+  align-items: baseline;
 }
 
 .portfolio-social-link-box {
