@@ -642,7 +642,7 @@ img {
 }
 
 .clients-link:hover,
-.clients-link:hover {
+.clients-link:focus {
   border-color: var(--accent-color);
 }
 
@@ -657,6 +657,10 @@ img {
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.footer-container {
+  display: flex;
 }
 
 .footer-link-logo {
@@ -749,6 +753,10 @@ img {
   color: var(--link-color);
 }
 
+.footer-social-link-box {
+  margin-left: 70px;
+}
+
 .footer-social-link-title {
   font-weight: bold;
   font-size: 14px;
@@ -756,18 +764,13 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: var(--link-color);
 }
 
 .footer-social-list {
   display: flex;
   justify-content: center;
-  align-items: center;
-  list-style: none;
-  padding: 0px;
+  margin-top: 16px;
 }
 
 .footer-social-list-item:not(:first-child) {
@@ -777,11 +780,20 @@ img {
 .footer-social-link {
   width: 44px;
   height: 44px;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+
+.footer-link-icon {
+  fill: var(--btn-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
 }
 
 .footer-portfolio {
@@ -863,3 +875,49 @@ img {
   letter-spacing: 0.03em;
   color: var(--link-color);
 }
+
+.footer-portfolio-container {
+  display: flex;
+}
+
+.portfolio-social-link-box {
+  margin-left: 70px;
+}
+
+.portfolio-social-link-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--link-color);
+}
+
+.portfolio-social-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.portfolio-social-list-item:not(:first-child) {
+  margin-left: 10px;
+}
+
+.portfolio-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.portfolio-link-icon {
+  fill: var(--btn-color);
+}
+
+.portfolio-social-link:hover,
+.portfolio-social-link:focus {
+  background-color: var(--accent-color);
