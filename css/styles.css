@@ -207,7 +207,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  color:  #757575;;
 }
 
 .header-mail:hover,
@@ -239,7 +239,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-color);
+  color: #757575;;
 }
 
 .header-portfolio-mail:hover,
@@ -408,6 +408,15 @@ img {
   width: calc(100% / 3 - 30px);
   margin-right: 30px;
   margin-bottom: 30px;
+  box-sizing: border-box;
+  background: var(--link-color);
+  border: 1px solid #EEEEEE;
+}
+
+.features-portfolio-item:hover,
+.features-portfolio-item:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px 
+rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-post {
@@ -513,6 +522,7 @@ img {
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #F5F4FA;;
 }
 
 .work-list {
