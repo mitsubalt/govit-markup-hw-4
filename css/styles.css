@@ -207,7 +207,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color:  #757575;;
+  color: #757575;
 }
 
 .header-mail:hover,
@@ -239,7 +239,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;;
+  color: #757575;
 }
 
 .header-portfolio-mail:hover,
@@ -410,13 +410,13 @@ img {
   margin-bottom: 30px;
   box-sizing: border-box;
   background: var(--link-color);
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
 
 .features-portfolio-item:hover,
 .features-portfolio-item:focus {
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px 
-rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-post {
@@ -522,7 +522,7 @@ rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 .work {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: #F5F4FA;;
+  background-color: #f5f4fa;
 }
 
 .work-list {
@@ -933,3 +933,4 @@ rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 .portfolio-social-link:hover,
 .portfolio-social-link:focus {
   background-color: var(--accent-color);
+}
